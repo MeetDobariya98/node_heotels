@@ -1,0 +1,4 @@
+#ignore node_modules dicectory
+node_modules/
+
+#other enteries
