@@ -421,3 +421,6 @@ steps
 
 for save a snapshot
 ->> git commit -m "first version of our hetels"
+
+for add a project in github
+->> git push -u origin main
