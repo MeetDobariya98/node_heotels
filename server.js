@@ -2,9 +2,10 @@ const express = require('express');
 const app = express();
 const db = require('./db');
 const bodyParser = require('body-parser');
-
+require('dotenv').config();
 
 app.use(bodyParser.json());
+const PORT = process.env.PORT || 3000;
 
 // Root route
 app.get('/', (req, res) => {
