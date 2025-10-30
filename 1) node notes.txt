@@ -445,7 +445,7 @@ setup
 -->> in url you need a enter a password again 
 -->> then run your server 
 
-****************************************** Dotenv ******************************************
+****************************************** Dotenv configugration file ******************************************
 
 ->>the Dotenv module in node.js is used to manage configuration variables and 
 senstitive informantion in your application 
@@ -461,3 +461,5 @@ steps
 -->> in the senstitive data palced you write a variable name that you define in .env file 
     like this const PORT = process.env.PORT || 3000;
     note:- in .env evry variable name is in capital latter
+
+****************************************** Host server ******************************************
