@@ -1,4 +1,5 @@
 #ignore node_modules dicectory
 node_modules/
 .env
+notes/
 #other enteries
