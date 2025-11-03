@@ -27,7 +27,7 @@ const personRouter = require('./routs/personrouts');
 const menuItemRouts= require('./routs/menuItemRouts')
 
 //use the routers
-app.use('/person',localAutMiddaleware, personRouter);
+app.use('/person', personRouter);
 app.use('/menu',menuItemRouts);
 
 // Start the server
